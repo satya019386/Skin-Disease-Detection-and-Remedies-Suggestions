@@ -1,0 +1,78 @@
+body {
+    overflow-x:hidden;
+    width:100%;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    background:#eee;
+    min-height:100px;
+    background-attachment:fixed;
+}
+
+.bg2 {
+    background: 
+    url(/static/images/bg.jpg) left top no-repeat, /* First image */
+    url(/static/images/image2.jpeg) right top no-repeat; /* Second image */
+    background-size: 50% 100%; /* Each image occupies 50% of the width */
+    min-height: 80vh; /* Ensure the background covers the entire viewport height */
+    /*image-rendering: pixelated;*/ /* Prevent blurring of images */
+    image-rendering: crisp-edges;
+    
+}
+
+.header {
+    background:#202020;
+    height:70px;
+}
+
+.logo {
+    font-family:'typo';
+    font-size:35px;
+    color:#ffbb33;
+    margin:15px;
+}
+
+.title1 {
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.sub1 {
+    width:250px;
+    color:#202020;
+    background:orange;
+    font-size:15px;
+    height:35px;
+    margin:20px;
+    padding:10px;
+}
+
+.footer {
+    font-size:15px;
+    text-align:center;
+    border-top:1px solid;
+    border-color:#323232;
+    background-color:#202020;
+}
+
+.footer a {
+    margin:25px;
+    color:orange;
+    text-decoration:none;
+    font: 14px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.footer a:hover {
+    text-decoration:none;
+    color:#9acd32;
+    border-top:2px solid;
+    border-color:orange;
+}
+
+.box {
+    padding:9px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

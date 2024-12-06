@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+        Acne       0.92      0.72      0.81       697
+  Dermatitis       0.76      0.98      0.86      1362
+     Healthy       0.93      0.95      0.94       131
+       Lupus       0.32      0.41      0.36       103
+    Ringworm       0.93      0.81      0.87      2017
+
+    accuracy                           0.84      4310
+   macro avg       0.77      0.77      0.77      4310
+weighted avg       0.86      0.84      0.84      4310

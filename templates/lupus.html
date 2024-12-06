@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <script src="header.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>Skin Disease Detection</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-style {
+            background-color: #dcdcdc;
+
+        }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width: 430px) and (min-width: 200px) {
+
+
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+ <script>addHeader();</script>
+
+    <!-- <div>
+        <img src="/static/images/" class="w3-border w3-padding" alt="Banner"
+            style="width:100%">
+           
+            
+             
+    </div> -->
+
+
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    <!-- <img src="{{pred_output}}" alt="User Image" class="img-thumbnail"> -->
+
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h2>Disease Name  : </span></h2>
+                <h3 style="line-height: 100%;">Lupus </h3>
+                <h3 style="line-height: 100%;">Selected Model: {{ selected_model }} </h3>
+                
+                  
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+
+
+        <h1> Solutions for Disease : </h1>
+        <ol>
+            <li>Maintain consistent visits with your healthcare provider.</li>
+            <li>Incorporate fruits, vegetables, whole grains, and lean proteins into your diet.</li>
+            <li>Protect your skin from sunlight exposure with sunscreen and protective clothing, and prioritize stress-reduction techniques such as mindfulness and relaxation exercises.</li>
+          </ol>
+          
+           <p><strong></i></strong></p>
+        <p></p>
+       
+    </div>
+
+
+
+    <section>
+
+        <div class="container">
+            <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 content-h1">
+                Recommended Products</h1>
+        </div>
+
+        <div class="container">
+
+
+            <div class="card-columns">
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="/static/images/lupus/hcqs-300.jpeg" alt="">
+                        <h3 class="card-text">Dose: 1 pill per day after eating Meal for 10-14 weeks</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="/static/images/lupus/mycophenolate 250mg.jpeg" alt="">
+                        <h3 class="card-text">Dose: 2 times daily after eating meal for 6 month</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px" class="img-fluid" src="/static/images/lupus/strallium.jpeg" alt="">
+                        <h3 class="card-text">Dose: Apply the cream daily on the stretch marks.  </h3>
+                    </div>
+                </div>
+                
+                
+                
+
+            </div>
+
+            <!-- <div class="container-fluid contents"> -->
+            <h5 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 contents">
+                Delivery Contact:
+               Contact to Nepal Engineering College</h5>
+            <!-- </div> -->
+        </div>
+
+    </section>
+
+</body>
+
+</html>
